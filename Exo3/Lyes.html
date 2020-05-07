@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Things I've Learned</title>
+    </head>
+    
+    <h1>Register</h1>
+    <form action="" method="get"> 
+        <table border="2px">
+            <tr>
+                <td>
+                
+
+                    <label for="FN">First name</label>       
+                    <input type="text"  name="FN" placeholder="john" required>
+
+                    <label for="LN">last name</label>       
+                    <input type="text"  name="LN" placeholder="smith" required>
+                    
+                    <div>
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        
+                        <label for="female">female</label>
+                        <input type="radio" id="female" name="gender" value="female" required>
+                       
+                        <label for="other">other</label>
+                        <input type="radio" id="other" name="gender" value="other" required> 
+                    </div>
+    
+                    <div>
+                        <label for="EM">Email</label>       
+                        <input type="email"  name="EM" placeholder="name@mail.xx" required>
+                    
+                        <label for="ps">Password</label>       
+                        <input type="password"  name="PS" placeholder="your password" required>
+                    </div>
+
+                    <div>
+
+                        <label for="M">Birthday  :   </label>
+                        <input type="number" id="M" name="M"    min="1" max="12"  placeholder="Month"> 
+
+                        <label for="D"></label>
+                        <input type="number" id="D" name="D"    min="1" max="31"  placeholder="Day"> 
+
+                        <label for="Y"></label>
+                        <input type="number" id="Y" name="Y"    min="0" max="9999"  placeholder="Year"> 
+                
+                        <br>
+
+                        <label for="agree">i agree the terms and conditions </label>
+                        <input type="checkbox" id="agree" name="agree" value="agree">
+                    </br>
+                    <div>
+                        <button>Submit</button>
+                    </div>
+            
+
+               
+
+                </td>
+            </tr>
+
+    </form>
+    </body>
+
+</html>
