@@ -11,14 +11,14 @@
     <label for="Last Name">First Name :</label>
     <input type="text" name="Last Name" placeholder="Name pls !" required><br>
     <label for="Gender">Gender :</label>
-    <label for="Male">Male </label> <input type="radio" name="grnder" id="Male" value="Male" >
-    <label for="Female">Female </label> <input type="radio" name="gender" id="Female" value="Female"><br>
+    <label for="Male">Male </label> <input type="radio" name="gender" value="Male" >
+    <label for="Female">Female </label> <input type="radio" name="gender" value="Female"><br>
     
     <label for="Email">Email :</label>
     <input type="email" name="Email" placeholder="Your email !" required>
 
     <label for="Password">Password :</label>
-    <input type="password" pattern=".{5,10}" required title="5 to 10 characters" placeholder="Password"><br>
+    <input type="password" maxlength="10" minlength="5" required title="5 to 10 characters" placeholder="Password"><br>
 
     <label for="Birthday">Birthday :</label>
     <select name="DOBDay">
@@ -56,19 +56,19 @@
         <option value="31">31</option>
     </select>
     <select name="DOBMonth">
-    <option>- Month -</option>
-    <option value="January">January</option>
-    <option value="Febuary">Febuary</option>
-    <option value="March">March</option>
-    <option value="April">April</option>
-    <option value="May">May</option>
-    <option value="June">June</option>
-    <option value="July">July</option>
-    <option value="August">August</option>
-    <option value="September">September</option>
-    <option value="October">October</option>
-    <option value="November">November</option>
-    <option value="December">December</option>
+        <option>- Month -</option>
+        <option value="January">January</option>
+        <option value="Febuary">Febuary</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
     </select>
     <select name="DOBYear">
     <option>- Year -</option>
