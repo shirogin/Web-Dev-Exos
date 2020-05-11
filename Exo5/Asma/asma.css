@@ -17,10 +17,10 @@
    }
    * {
   box-sizing: border-box;
-}
+     }
    input {
-      border-width: 3px;
-	  border-coler: red;
+      border-width:3px;
+	  border-color:red;
     }
 	#special{
 	 border-style: solid;
@@ -29,12 +29,12 @@
 	}
 	div p {
 	font-size: 25%;
-	
+	background-color: pink;
 	div div div p{
-	 background-color: pink;}
-	 div div p {
+	  : pink;}
+	  div div p {
 	  border-width: 2px;
-	  border-coler: white;
+	  border-color: white;
 	 }
 	 div div div em{
 	 font-size:5px;}
