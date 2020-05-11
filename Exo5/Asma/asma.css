@@ -1,0 +1,51 @@
+   * {
+  box-sizing: border-box;
+     }
+  
+  body{
+     background: #bdc3c7;
+  }
+   h1{
+   color: #9b59b6;
+   }
+   h2{
+   color: orange;
+   }
+   li{
+   color: #1E90FF
+   }
+   p{
+   background-color: yellow;
+   }
+  
+   input {
+      border-width:3px;
+	  border-color:red;
+    }
+	#special{
+	 border-style: solid;
+      border-width: 1px;
+	  border-color: rgb(70,130,180);
+	}
+	div p {
+	font-size: 25px;
+	background-color: pink;
+	}
+	 div div p {
+	  border-width: 2px;
+	  color: white;	
+	  }
+	 imput[type=text]{
+		 background-color: gris;  
+	   }
+
+	 div div div p {
+	   background-color: pink;
+	  }
+	 
+	 
+	 div div div em{
+	 font-size:5px
+	 }
+	 .hello{
+	 background-color: white;}
