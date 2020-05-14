@@ -1,4 +1,6 @@
-  
+   * {
+  box-sizing: border-box;
+     }
   
   body{
      background: #bdc3c7;
@@ -15,9 +17,7 @@
    p{
    background-color: yellow;
    }
-   * {
-  box-sizing: border-box;
-     }
+  
    input {
       border-width:3px;
 	  border-color:red;
@@ -28,16 +28,33 @@
 	  border-color: rgb(70,130,180);
 	}
 	div p {
+<<<<<<< HEAD
 	font-size: 25%;
   background-color: pink;
 }
 	div div div p{
 	  color: pink;}
 	  div div p {
+=======
+	font-size: 25px;
+	background-color: pink;
+	}
+	 div div p {
+>>>>>>> 57143ee8515414adc1dfc440b860f55dd1d34120
 	  border-width: 2px;
-	  border-color: white;
-	 }
+	  color: white;	
+	  }
+	 imput[type=text]{
+		 background-color: gris;  
+	   }
+
+	 div div div p {
+	   background-color: pink;
+	  }
+	 
+	 
 	 div div div em{
-	 font-size:5px;}
+	 font-size:5px
+	 }
 	 .hello{
 	 background-color: white;}
