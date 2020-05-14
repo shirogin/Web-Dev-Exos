@@ -29,9 +29,10 @@
 	}
 	div p {
 	font-size: 25%;
-	background-color: pink;
+  background-color: pink;
+}
 	div div div p{
-	  : pink;}
+	  color: pink;}
 	  div div p {
 	  border-width: 2px;
 	  border-color: white;
