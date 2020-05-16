@@ -15,18 +15,19 @@ function inverse (list)
     }
     console.log(list);
 }
+inverse(list);
 
 /* this function verifies if all the elements of the lists are equql */
 function verify (list)
 {
     var n= list.length -1;
     var b= true;
-    var i=0;
-    while (i<n && b=== true)
+
+    for (var i=1; i<=n; i++)
     {
-        if (list[i]===list[i+1]) {i++;}
-        else {b=false;}
+        if(list[i]!==list[1]) {b=false};
     }
 
     console.log(b);
 }
+verify(list);
