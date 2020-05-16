@@ -8,7 +8,6 @@ function reverse(list) {
        list[j]=list[i];
        list[i]=t;
        j=j-1;
-
    }
    return list;
 }
@@ -24,15 +23,11 @@ function sum(list) {
 }
 // 3- isUniform(list); ==> isUniform([0,48,44,95])=> false / isUniform([0,0,0,0]) => true
 function uni(list) {
-    uniforme = true;
     for (let i = 0; i < list.length-1; i++) {
         if (list[i]!==list[i+1]) {
-            uniforme = false;
             i=list.length-1;
-            console.log(list + ' is not uniforme');
-            return false;
+            return console.log(list + ' is not uniforme') ;
         }
-        else {console.log(list + ' is uniforme.');}
-        return true;
+        else { return console.log(list + ' is uniforme.'); }
     }
 }
