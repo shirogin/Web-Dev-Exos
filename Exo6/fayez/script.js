@@ -1,12 +1,14 @@
 //Home Work
 // 1- printReverse(list);==> printReverse([0,48,44,95])=> 95 44 48 0
 function reverse(list) {
-    t=0;
-    j=list.length;
-   for (let i = 0; i < list.length; i++) {
+    var t=0;
+    j=list.length-1;
+   for (let i = 0; i < list.length-1; i++) {
        t = list[j];
+       list[j]=list[i];
        list[i]=t;
        j=j-1;
+
    }
    return list;
 }
