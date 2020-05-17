@@ -22,6 +22,6 @@ cinema.push(CreateMovie("THE JOKER", 8.5, false));
 cinema.forEach(element => {
     console.log(" -------- ");
     console.log("TITLE: "+element.Name);
-    console.log("#RANK : "+element.IMDB);
+    console.log("#IMDB : "+element.IMDB);
     console.log("I've watched it: "+element.WATCHED);
 });
