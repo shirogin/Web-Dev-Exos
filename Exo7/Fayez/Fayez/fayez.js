@@ -62,8 +62,8 @@ movies[9]= {
 };
 
 movies.forEach(element => {
-    console.log("#Rank"+element.Rank+" :");
     console.log("Title : "+element.Title);
+    console.log("#Rank"+element.Rank+" :");
     console.log("watched : " + element.watched);
 });
 
