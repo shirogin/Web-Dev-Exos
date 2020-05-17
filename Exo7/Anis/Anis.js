@@ -1,4 +1,4 @@
-var cinema=[];
+var cinema= [];
 
 function CreateMovie(Name, IMDB, WATCHED)
 {
