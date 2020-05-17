@@ -18,6 +18,4 @@ cinema.push(CreateMovie("THE DA VINCI CODE", 6.6, true));
 cinema.push(CreateMovie("INCEPTION", 8.8, true));
 cinema.push(CreateMovie("THE JOKER", 8.5, false));
 
-cinema.forEach(element => {
-    console.log(element);
-});
+console.log(cinema);
