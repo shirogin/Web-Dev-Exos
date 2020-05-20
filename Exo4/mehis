@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <html>
+    <title> Une Tortue Bien Aimée </title>
+    <h1> ---------- Let's Meet Mehis ^^ ---------- </h1>
+    <style>
+
+        body { background-color: rgba(151, 243, 97, 0);}
+        .one{ border: 2px solid lightcoral;
+            width:20%;
+            height: 300px;    
+            }   
+        .two { border:2px solid rgba(224, 34, 34, 0.774);
+            width:20%;
+            height:300px;
+            }        
+        li{ color:saddlebrown}
+        h4{ color:lightseagreen}
+        h1{ color:lime}
+    </style>
+</head>
+
+<body> 
+
+    <h4> Who's Mehis ? </h4>
+    <div>  
+    <p> Mehis is a little turtle it s a hermans * kind of turtles * one aged of 9 months   <div> Let's don't get bored ( PS : That S not a scientific document )</div> 
+    </p>
+    <img class ="three" src=""
+    <p> Mehis is a friendly animal loves : 
+</ul>
+ <li> all what 's green * thinking that s a salade haha * </li>
+ <li> Caresses </li>
+ <li> Water </li>   
+ <li> Strawberry </li>
+ <li> Dark & narrow places </li>
+   </p>
+   <p> 
+   </ul>
+   <p> Mehis Hates :</p>
+   <li> being woken </li>
+   <li> Light </li>
+   <p> I know other things but imma stop here enough for today ^^ </p>
+   </p>
+    </div>
+     <div>
+      <img class = "one" src ="mehis projet.png">
+      <img class = "two" src ="projet mehis 2.jpg.png">
+     </div>
+     <p> Thank you <3 </p>
+</body>
